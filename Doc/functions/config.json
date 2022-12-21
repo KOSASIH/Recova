@@ -3,5 +3,10 @@
         "name": "resetFunc",
         "private": false,
         "can_evaluate": {}
+    },
+    {
+        "name": "Integrator",
+        "private": false,
+        "run_as_system": true
     }
 ]
