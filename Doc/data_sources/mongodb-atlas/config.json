@@ -3,9 +3,8 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "Recovolution",
-        "namespacePreimageConfigs": [],
         "readPreference": "primary",
-        "wireProtocolEnabled": false
+        "wireProtocolEnabled": true
     },
     "version": 1
 }
