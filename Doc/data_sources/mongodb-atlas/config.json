@@ -3,13 +3,7 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "Recovolution",
-        "namespacePreimageConfigs": [
-            {
-                "collectionName": "IntergoDb Collection",
-                "dbName": "IntergoDb",
-                "recordPreimages": true
-            }
-        ],
+        "namespacePreimageConfigs": [],
         "readPreference": "primary",
         "wireProtocolEnabled": false
     },
