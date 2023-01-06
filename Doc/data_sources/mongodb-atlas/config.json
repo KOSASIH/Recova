@@ -3,6 +3,13 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "Recovolution",
+        "namespacePreimageConfigs": [
+            {
+                "collectionName": "ACCpro Collection",
+                "dbName": "ACCproDb",
+                "recordPreimages": true
+            }
+        ],
         "readPreference": "primary",
         "wireProtocolEnabled": true
     },
